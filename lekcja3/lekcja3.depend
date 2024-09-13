@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1726228633 source:c:\users\2022 ar\desktop\informatika\lekcja3\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+
