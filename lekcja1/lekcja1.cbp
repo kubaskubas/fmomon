@@ -38,3 +38,32 @@
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
+
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+vector<int>wspulczyniki;
+
+void funkcja (int s)
+{
+    int wsp;
+    for (int i=0;i<s+1;i++){
+        cout << "Podaj " << i+1 << " Wspulczynnik" << endl;
+        cin >> wsp;
+        wspulczyniki.push_back(wsp);
+    }
+    for (int i=0;i<s+1;i++){
+        cout << wspulczyniki[i] << endl;
+    }
+
+}
+int main()
+{
+   int s;
+   cout << "Podaj Stopien" << endl;
+   cin >> s;
+   funkcja(s);
+}
